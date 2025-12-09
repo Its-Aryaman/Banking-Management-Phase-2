@@ -1,0 +1,41 @@
+# server.port=${SERVER_PORT:8081}
+
+# spring.application.name=account-service
+
+
+# eureka.client.service-url.defaultZone=${EUREKA_CLIENT_SERVICEURL_DEFAULTZONE:http://eureka-server:8761/eureka/}
+# spring.data.mongodb.uri=mongodb://mongo:27017/mydb
+
+
+# spring.data.mongodb.uri=${SPRING_DATA_MONGODB_URI:mongodb+srv://saxenamanu07_db_user:Up382YnlOMNptYAd@cluster0.vkplnts.mongodb.net/JournalApp?appName=Cluster0}
+
+# spring.data.mongodb.auto-index-creation=true
+
+# management.endpoints.web.exposure.include=*
+
+
+# server.port=${SERVER_PORT:8081}
+
+# spring.application.name=account-service
+
+# eureka.client.service-url.defaultZone=${EUREKA_CLIENT_SERVICEURL_DEFAULTZONE:http://eureka-server:8761/eureka/}
+
+# spring.data.mongodb.uri=${SPRING_DATA_MONGODB_URI:mongodb://mongo:27017/mydb}
+
+# spring.data.mongodb.auto-index-creation=true
+
+# management.endpoints.web.exposure.include=*
+
+
+server.port=${SERVER_PORT:8081}
+
+spring.application.name=account-service
+
+eureka.client.service-url.defaultZone=${EUREKA_CLIENT_SERVICEURL_DEFAULTZONE:http://eureka-server:8761/eureka/}
+
+# Atlas URL as default
+spring.data.mongodb.uri=${SPRING_DATA_MONGODB_URI:mongodb+srv://saxenamanu07_db_user:Up382YnlOMNptYAd@cluster0.vkplnts.mongodb.net/JournalApp?retryWrites=true&w=majority}
+
+spring.data.mongodb.auto-index-creation=true
+
+management.endpoints.web.exposure.include=*
